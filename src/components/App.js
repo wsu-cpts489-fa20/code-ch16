@@ -66,9 +66,6 @@ class App extends React.Component {
             mode={this.state.mode} 
             changeMode={this.handleChangeMode}
             menuOpen={this.state.menuOpen}/>
-          <FloatingButton 
-            mode={this.state.mode}
-            menuOpen={this.state.menuOpen}/>
           <ModePage menuOpen={this.state.menuOpen}
             changeMode={this.handleChangeMode}
             setUserId={this.setUserId}/>
